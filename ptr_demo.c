@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-void  main()
+void main()
 {
     char mystring[100];
 
@@ -46,7 +46,7 @@ void  main()
     printf("\nThe first \'f\' in \'%s\' is stored in memory location: %p",s4,strchr(s4,'f'));
     char s5[] = "Humburger";
     printf("\n---------------------------------");
-    printf("\nThe first \'urge\' in \'%s\' is stored in memory location: %p",s5,strchr(s5,"urge"));
+    printf("\nThe first \'urge\' in \'%s\' is stored in memory location: %p",s5,strchr(s5,'urge'));
     printf("\n---------------------------------");
     // display the length of the string
     printf("\nThe length of the string \'%s\'is: %d characters ",str3,strlen(str3));
